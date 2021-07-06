@@ -118,6 +118,7 @@ h1{
     display: flex;
     text-align: center;
     box-shadow: -8px 5px 10px black;
+    border-radius: 10px;
 }
 .last-div{
     width: 33.33%;
