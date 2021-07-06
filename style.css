@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0%;
 }
 .top-background{
     background-image: url(images/bg2.jpg);
@@ -13,7 +14,7 @@ h1{
     font-size: 50px;
 }
 .food{
-    color: rgb(248, 161, 0);
+    color: rgb(11, 223, 223);
     font-family: 'Courier New', Courier, monospace;
     font-size: 100px;
     text-shadow: 2px 2px 8px #000000;
@@ -28,7 +29,7 @@ h1{
     font-family: cursive;
 }
 .savior{
-    color: lime;
+    color: rgb(238, 222, 4);
     text-shadow: 2px 2px 8px #000000;
     font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
@@ -39,10 +40,12 @@ h1{
 .first-width{
     width: 70%;
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 .first-image{
     box-shadow: 8px 5px 10px black;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .link-button{
@@ -79,4 +82,53 @@ h1{
 .middle-line{
     text-align: center;
     font-family: cursive;
+    padding-top: 40px;
+}
+.recipies-section{
+    display: flex;
+    padding: 40px;
+}
+.recipies-images{
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.recipies-header{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+.recipies-paragraphs{
+    text-align: justify;
+    padding: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.recepies-div{
+    width: 33.33%;
+    padding: 10px;
+    box-shadow: -8px 5px 10px black;
+    border-radius: 10px;
+}
+.last-section{
+    padding: 10px 50px 10px 50px;
+}
+.last-and-div{
+    display: flex;
+    text-align: center;
+    box-shadow: -8px 5px 10px black;
+}
+.last-div{
+    width: 33.33%;
+
+}
+#last{
+    text-align: center;
+    background-color: rgb(88, 6, 6);
+}
+.last-p{
+    font-family: monospace;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
