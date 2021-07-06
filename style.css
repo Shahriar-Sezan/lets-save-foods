@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.top-background{
+    background-image: url(images/bg2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+}
+.food{
+    color: rgb(248, 161, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-shadow: 2px 2px 8px #000000;
+}
+.restaurant{
+    color: rgb(180, 11, 172);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px #f4e7f5;
+}
+#one{
+    font-family: cursive;
+}
+.savior{
+    color: lime;
+    text-shadow: 2px 2px 8px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+.first-section{
+    display: flex;
+}
+.first-width{
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.first-image{
+    box-shadow: 8px 5px 10px black;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(to bottom, #cf0909 0%, #d81174 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: -8px 5px 10px black;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.overlap {
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+}
+.second-image{
+    width: 80%;
+    height: 80%;
+    box-shadow: -8px 5px 10px black;
+}
+.second-section{
+    padding-top: 5%;
+}
+.about{
+    color: rgb(0, 225, 255);
+    text-shadow: 2px 0px 8px #517f85;
+    font-size: 40px;
+}
+.middle-line{
+    text-align: center;
+    font-family: cursive;
+}
